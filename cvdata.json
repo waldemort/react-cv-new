@@ -1,0 +1,270 @@
+[ 
+   { 
+      "personalData":{ 
+         "firstName":"Waldemar",
+         "familiyName":"Schiller",
+         "street":"Schorlemerstr.",
+         "houseNumber":"14",
+         "postalCode":"40545",
+         "city":"Düsseldorf",
+         "birthDate":"20.09.1986",
+         "nationality":"German",
+         "eMail":"waldemar.schiller@me.com",
+         "phoneNumber":"+491755766572"
+      },
+      "work":[ 
+         { 
+            "position":"Technology Consulting Manager",
+            "aspiredPosition":"Technology Consulting Senior Manager",
+            "startDate":"01.01.2016",
+            "endDate":"",
+            "companyName":"Accenture GmbH",
+            "companyCity":"Düsseldorf",
+            "companyCountry":"Germany",
+            "achivements":[
+              "Winner of the Accenture Leadership Award 2019"
+            ],
+            "workExperience":[ 
+               { 
+                  "companyName":"",
+                  "industry":"telecommunication",
+                  "role":"Messaging Bot Factory Delivery Lead",
+                  "activities":[ 
+                    "Establishment of an agile factory for the implementation of an own bot framework for the automation of the Customer Service",
+                    "Leadership of an international SCRUM team for a bot framework development and other automation (API and RPA) for customer facing channels using the latest technologies: AI, NLP, OCR etc."
+                  ]
+               },
+               {
+                "companyName":"",
+                  "industry":"telecommunication",
+                  "role":"Process Automation & Robotics Team Lead",
+                  "activities":[ 
+                    "Set up and lead of an international software development team",
+                    "Architecture and integration of an RPA infrastructure",
+                    "Business process analysis and evaluation of automation feasibility"
+                  ] 
+               },
+               {
+                 "companyName":"",
+                  "industry":"telecommunication",
+                  "role":"Business Process Designer",
+                  "activities":[ 
+                    "Cost-benefit analysis and calculation of a global ERP rollout",
+                    "Benchmark study: cost savings and process efficiencies of a shared service center and ERP consolidation "
+                  ]
+               },
+               {
+                 "companyName":"",
+                  "industry":"telecommunication",
+                  "role":"Business Analysis",
+                  "activities":[ 
+                    "Evaluation of business requirements",
+                    "Specification and identification of software development requirements"
+                  ]
+               },
+               {
+                 "companyName":"Accenture GmbH",
+                  "industry":"Engagement besides the project work",
+                  "role":"Blog in cooperation with Bertelsmann SE & Co. KGaA",
+                  "activities":[ 
+                    "Machine Learning - Can’t see the forest for the trees? Here is a way.",
+                    "Automation all the way - Machine Learning for IT Service Management"
+                  ]
+               },
+               {
+                 "companyName":"Accenture GmbH",
+                  "industry":"Engagement besides the project work",
+                  "role":"Advisory Forum & Executive Council",
+                  "activities":[ 
+                    "New onboarding event for new joiners",
+                    "Actions for reduction of employee fluctuation", 
+                    "Set up an upward mentoring", 
+                    "Improvement of the individual performance process and of the Career Counseling "
+                  ]
+               },
+               {
+                 "companyName":"Accenture GmbH",
+                  "industry":"Engagement besides the project work",
+                  "role":"People Lead – make a better place to work",
+                  "activities":[ 
+                    "Employee development and staff planning considering profitability, employee strengths, personal and professional development"
+                  ]
+               }
+            ]
+         },
+         { 
+            "position":"IT Manager",
+            "aspiredPosition":"",
+            "startDate":"01.01.2014",
+            "endDate":"31.12.2015",
+            "companyName":"Bertelsmann SE & Co. KGaA",
+            "companyCity":"Gütersloh",
+            "companyCountry":"Germany",
+            "achivements":[
+              "Nomination for the arvato management development program"
+            ],
+            "workExperience":[ 
+               { 
+                  "companyName":"",
+                  "industry":"Media",
+                  "role":"Internal IT Consulting",
+                  "activities":[ 
+                    "Design & implementation of a Social Collaboration Platform",
+                    "Agile integration of the new arvato.com website",
+                    "Transition-Project: consolidation of two Business-Support-IT-Units to one ITShared Service Center",
+                    "Transformation of the old infrastructure to a cloud ready and scalable Microsoft Active Directory with Microsoft System Center und Azure Portal",
+                    "Integration Service Management Suite SAP Solution Manager",
+                    "Architecture design and integration of SAP Business Objects Business Intelligence incl. Enterprise Data Warehouse with Data Vault und Data Virtualization"
+                  ]
+               }
+            ]
+         },
+         { 
+            "position":"Junior IT Site Management Coordinator",
+            "aspiredPosition":"",
+            "startDate":"01.02.2013",
+            "endDate":"31.12.2013",
+            "companyName":"arvato direct services GmbH",
+            "companyCity":"Gütersloh",
+            "companyCountry":"Germany",
+            "achivements":[
+            ],
+            "workExperience":[ 
+               { 
+                  "companyName":"",
+                  "industry":"Media",
+                  "role":"Coordination of cross-site projects",
+                  "activities":[ 
+                    "Service Management to the board of directors’",
+                    "Windows migrations",
+                    "1st, 2nd and 3rd level IT support"
+                  ]
+               },
+               { 
+                  "companyName":"",
+                  "industry":"Media",
+                  "role":"Integration of Enterprise Architectures",
+                  "activities":[ 
+                    "McAfee Mobile Device Management",
+                    "Microsoft System Center Configuration Manager 2012 R2"
+                  ]
+               },
+               { 
+                  "companyName":"",
+                  "industry":"Media",
+                  "role":"Consulting",
+                  "activities":[ 
+                    "Technical due diligence for call center mergers"
+                  ]
+               }
+            ]
+         }
+      ],
+      "education":[
+        {
+          "type": "Dual Study",
+          "graduation":"Bachelor of Science",
+          "specialization": "Economic computer science",
+          "thesisTheme":"Mobile Device Management – Criteria and implementation guide",
+          "startDate":"01.08.2008",
+          "endDate": "31.01.2013",
+          "finalGrade":2.5,
+          "institute":"Fachhochschule der Wirtschaft",
+          "instituteCity": "Paderborn",
+          "instituteCountry": "Germany"
+        },
+        {
+          "type": "Apprenticeship",
+          "graduation":"IHK: IT specialist",
+          "specialization": "System integration",
+          "thesisTheme":"Lorem ipsum dolor sit amet",
+          "startDate":"01.08.2008",
+          "endDate": "10.05.2011",
+          "finalGradeIHK":79,
+          "finalGrade": 1.4,
+          "institute":"Bertelsmann SE & Co. KGaA",
+          "instituteCity": "Gütersloh",
+          "instituteCountry": "Germany"
+        },
+        {
+          "type": "Vocational college",
+          "graduation":"Lorem ipsum dolor sit amet",
+          "specialization": "Lorem ipsum dolor sit amet",
+          "thesisTheme":"",
+          "startDate":"01.08.2005",
+          "endDate": "31.07.2008",
+          "finalGrade":1.9,
+          "institute":"Ems-Berufskolleg",
+          "instituteCity": "Rheda-Wiedenbrück",
+          "instituteCountry": "Germany"
+        },
+        {
+          "type": "Academic high school",
+          "graduation":"switched school",
+
+          "startDate":"01.08.2004",
+          "endDate": "31.07.2005",
+          "institute":"Einstein-Gymnasium",
+          "instituteCity": "Rheda-Wiedenbrück",
+          "instituteCountry": "Germany"
+        },
+        {
+          "type": "Middle school",
+          "graduation":"Lorem ipsum dolor sit amet",
+          "startDate":"01.08.1997",
+          "endDate": "31.07.2004",
+          "finalGrade":3,
+          "institute":"Ernst-Barlach-Realschule",
+          "instituteCity": "Rheda-Wiedenbrück",
+          "instituteCountry": "Germany"
+        },
+        {
+          "type": "Elementary school",
+          "graduation":"Lorem ipsum dolor sit amet",
+          "specialization": "",
+          "thesisTheme":"",
+          "startDate":"01.08.1993",
+          "endDate": "31.07.2007",
+          "institute":"Johannis Grundschule",
+          "instituteCity": "Rheda-Wiedenbrück",
+          "instituteCountry": "Germany"
+        }
+      ],
+      "qualifications":[
+        {
+          "skillName": "Social skills",
+          "characteristic": [
+            "Target-group-oriented communication", 
+            "Integration aspirations",
+            "Inspiration employee motivation",
+            "Curiosity and drive"
+          ]
+        },
+        {
+          "skillName": "IT",
+          "characteristic": [
+            "New technologies",
+            "Conception",
+            "Architecture and implementation of IT transformations",
+            "System integration",
+            "AI and business development"
+          ]
+        },
+        {
+          "skillName": "Methodology ",
+          "characteristic": [
+            "Design Thinking",
+            "Agile Project Management (Scrum, SAFe)" 
+          ]
+        },
+        {
+          "skillName": "Programming languages",
+          "characteristic": [
+            "C, C++, C#, Java, PL/SQL, ABAP, Perl, Swift 3, Python, nodeJS" 
+          ]
+        }
+        
+      ]
+
+   }
+]
