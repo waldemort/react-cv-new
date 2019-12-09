@@ -10,7 +10,13 @@
          "birthDate":"20.09.1986",
          "nationality":"German",
          "eMail":"waldemar.schiller@me.com",
-         "phoneNumber":"+491755766572"
+         "phoneNumber":"+491755766572",
+         "test":[
+           {
+             "test2":"ja",
+             "test3":"nein"
+           }
+         ]
       },
       "work":[ 
          { 

@@ -16,10 +16,11 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
-        <div>
-        <p>{postDetail.work.position}</p></div>
+        <p>{postDetail}</p>
+        
         {console.log(postDetail.personalData.phoneNumber)}
         {JSON.stringify(CVdata)}
+      
       
         </div>
 
