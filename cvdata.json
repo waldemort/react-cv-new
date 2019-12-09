@@ -18,6 +18,11 @@
            }
          ]
       },
+      "ichBineinObject":{
+        "item1":"nuuuma1",
+        "item2":"nuuuumaZwoo"
+
+      },
       "work":[ 
          { 
             "position":"Technology Consulting Manager",

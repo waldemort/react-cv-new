@@ -16,9 +16,9 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
-        <p>{postDetail}</p>
+        <p>{postDetail.personalData.test.test2}</p>
         
-        {console.log(postDetail.personalData.phoneNumber)}
+        {console.log(postDetail.personalData.phoneNumber, postDetail)}
         {JSON.stringify(CVdata)}
       
       
