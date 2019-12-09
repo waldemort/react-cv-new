@@ -16,7 +16,16 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
-        <p>{postDetail.personalData.test.test2}</p>
+        <p>{postDetail.ichBineinObject.item1}</p>
+
+        {
+                postDetail.work.map((subitem, i) => {
+                  return (
+                     <ul ><li>{subitem.position}</li></ul>
+                  )
+                })
+               }
+
         
         {console.log(postDetail.personalData.phoneNumber, postDetail)}
         {JSON.stringify(CVdata)}
