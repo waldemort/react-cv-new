@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CVdata from './cvdata.json';
 
 
+
 class BasicData extends Component{
   render (){
     return(
@@ -15,7 +16,11 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
-        <p>{postDetail.work.position}</p>
+        <div>
+        <p>{postDetail.work.position}</p></div>
+        {console.log(postDetail.personalData.phoneNumber)}
+        {JSON.stringify(CVdata)}
+      
         </div>
 
 
