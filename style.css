@@ -26,3 +26,7 @@ p {
   width: 400px; 
   text-align: left;
 }
+
+img {
+  border-radius: 50%;
+}

@@ -23,7 +23,7 @@ class BasicData extends Component{
         
         
         
-        <img src={Icon} alt="MDN"/>
+        <img src="https://media.licdn.com/dms/image/C4D03AQHeIK5OJJUI7w/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=PhpzfEZTsEC9de0aSQSIY9-WrPYaYbab3J2mxuSmb2k" alt="MDN"/>
 
          </div>
 
