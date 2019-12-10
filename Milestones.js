@@ -4,7 +4,7 @@ import CVdata from './cvdata.json';
 
 
 
-class BasicData extends Component{
+class Milestones extends Component{
   render (){
     return(
     <div> 
@@ -46,4 +46,4 @@ class BasicData extends Component{
 
 }
 
-export default BasicData;
+export default Milestones;

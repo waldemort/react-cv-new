@@ -1,13 +1,28 @@
-h1, h2{ 
+h1 { 
   font-family: Calibri;
   font-style: normal;
   font-variant: normal;
-  line-height: 1;
+  line-height: 0.5;
+  color: darkgrey;
+  }
+
+  h2{ 
+  font-family: Calibri;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 0.5;
   }
 
 p { 
   font-family: Calibri;
   font-style: normal;
   font-variant: normal;
-  line-height: 0.6;
+  line-height: 0.4;
+  align-content: center;
   }
+
+
+.tableHead{
+  width: 400px; 
+  text-align: left;
+}
