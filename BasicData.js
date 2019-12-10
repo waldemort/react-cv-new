@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
 import './style.css';
+import Icon from './location_icon.png';
 
 
 
@@ -14,18 +15,12 @@ class BasicData extends Component{
         
         <h1 >Curriculum Vitae</h1>
         <h2> {postDetail.personalData.firstName} {postDetail.personalData.familiyName} </h2>
-   <img src={"'https://media.licdn.com/dms/image/C4D03AQHeIK5OJJUI7w/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=PhpzfEZTsEC9de0aSQSIY9-WrPYaYbab3J2mxuSmb2k'"} />
-    
- <p>{postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
+        <p>{postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
         <p>{postDetail.personalData.phoneNumber}</p>
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
-  
-
-      
-      
-        </div>
+         </div>
 
 
       })
