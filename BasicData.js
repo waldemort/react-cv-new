@@ -18,25 +18,6 @@ class BasicData extends Component{
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
 
-         {
-                postDetail.milestones.map((milestonesSubitem, i) => {
-                  return (
-                     <div>
-                     <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate}</p>
-                     <p>{milestonesSubitem.position}</p>
-                     
-                     
-                     </div>
-                     
-                  )
-                })
-               }
-        
-
-       
-
-        
-        
       
       
         </div>
