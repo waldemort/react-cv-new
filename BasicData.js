@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
+import LocationIcon from './location_icon.png';
 
 
 
@@ -11,7 +12,7 @@ class BasicData extends Component{
       CVdata.map((postDetail, index) => {
         return <div>
         <h2> {postDetail.personalData.firstName} {postDetail.personalData.familiyName} </h2>
-        <p>{postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
+        <p><img src={LocationIcon}/> {postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
         <p>{postDetail.personalData.phoneNumber}</p>
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
