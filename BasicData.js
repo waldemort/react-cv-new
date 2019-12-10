@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
 import './style.css';
-
+import me from 'https://media.licdn.com/dms/image/C4D03AQHeIK5OJJUI7w/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=PhpzfEZTsEC9de0aSQSIY9-WrPYaYbab3J2mxuSmb2k';
 
 
 
@@ -20,7 +20,7 @@ class BasicData extends Component{
     <h1 >Curriculum Vitae</h1>
     <h2> {postDetail.personalData.firstName} {postDetail.personalData.familiyName} </h2>
     </th>
-    <th>pic</th>
+    <th><img src={me} alt="Smiley face"> </th>
     
   </tr>
   <tr><p>{postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
