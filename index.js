@@ -4,6 +4,7 @@ import Hello from './Hello';
 import './style.css';
 import BasicData from './BasicData';
 import Milestones from './Milestones';
+import Icon from './location_icon.png';
 
 class App extends Component {
  

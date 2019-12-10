@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
 import './style.css';
-import Icon from './location_icon.png';
+import Icon from './locationIcon.png';
 
 
 
@@ -20,6 +20,11 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
+        
+        
+        
+        <img src={Icon} alt="MDN"/>
+
          </div>
 
 
