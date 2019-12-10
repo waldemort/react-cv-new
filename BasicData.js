@@ -27,8 +27,7 @@ class BasicData extends Component{
                }
 
         
-        {console.log(postDetail.personalData.phoneNumber, postDetail)}
-        {JSON.stringify(CVdata)}
+        
       
       
         </div>
