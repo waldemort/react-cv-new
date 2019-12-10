@@ -18,12 +18,7 @@
            }
          ]
       },
-      "ichBineinObject":{
-        "item1":"nuuuma1",
-        "item2":"nuuuumaZwoo"
-
-      },
-      "work":[ 
+      "milestones":[ 
          { 
             "position":"Technology Consulting Manager",
             "aspiredPosition":"Technology Consulting Senior Manager",

@@ -16,12 +16,18 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
-        <p>{postDetail.ichBineinObject.item1}</p>
+        
 
         {
-                postDetail.work.map((subitem, i) => {
+                postDetail.milestones.map((milestonesSubitem, i) => {
                   return (
-                     <ul ><li>{subitem.position}</li></ul>
+                     <div>
+                     <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate}</p>
+                     <p>{milestonesSubitem.position}</p>
+                     
+                     
+                     </div>
+                     
                   )
                 })
                }
