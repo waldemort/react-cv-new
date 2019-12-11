@@ -30,3 +30,11 @@ p {
 img {
   border-radius: 50%;
 }
+
+
+
+.box {
+     float: left;
+     padding: 20px;
+     background: #eee;
+}
