@@ -31,10 +31,19 @@ img {
   border-radius: 50%;
 }
 
+.container{
+  display: flex;
+  max-width: 800px;
+}
 
-
-.box {
-     float: left;
-     padding: 20px;
+.boxData {
+     flex: 1 1 100px;
      background: #eee;
+     justify-content: center;
+}
+
+.boxPic {
+     flex: 1 1 100px;
+     background: #eee;
+     justify-content: center;
 }

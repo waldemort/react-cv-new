@@ -11,7 +11,7 @@ class BasicData extends Component{
     <div> 
     {
       CVdata.map((postDetail, index) => {
-        return <container><div class="box">
+        return <div class="container"><div class="boxData">
         
         <h1 >Curriculum Vitae</h1>
         <h2> {postDetail.personalData.firstName} {postDetail.personalData.familiyName} </h2>
@@ -20,14 +20,15 @@ class BasicData extends Component{
         <p>{postDetail.personalData.eMail}</p>
         <p>{postDetail.personalData.birthDate}</p>
         <p>{postDetail.personalData.nationality}</p>
+        </div>
         
-        <div class="box">
+        <div class="boxPic">
         
         <img src="https://media.licdn.com/dms/image/C4D03AQHeIK5OJJUI7w/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=PhpzfEZTsEC9de0aSQSIY9-WrPYaYbab3J2mxuSmb2k" alt="MDN"/>
         </div>
 
+         
          </div>
-         </container>
 
 
       })
