@@ -32,7 +32,7 @@ class Milestones extends Component{
                        milestonesSubitem.workExperience.map((workExperience, k) => {
                          return (
                            <div class="boxAct">
-                           <p>{workExperience.role}</p>
+                           <p><u>{workExperience.role}</u></p>
                            <li>{workExperience.activities}</li>
                            </div>
                            )
