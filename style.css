@@ -23,11 +23,10 @@ p {
   font-style: normal;
   font-variant: normal;
   line-height: 0.4;
-  align-content: center;
   }
 
 
-img {
+.profile {
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -35,14 +34,18 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
+.icon{
+  width: 30px;
+  vertical-align:middle;
+}
 
 .container{
   display: flex;
-  align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   flex-wrap: wrap;
   background-color: white;
   margin: auto;
+  align-items: top;
   
 }
 
@@ -52,8 +55,6 @@ img {
   margin: 15px;
   padding: 15px;
   margin-bottom: 0px;
-  
-  border: 1px solid;
 }
 .boxData2 {
   flex: 1 1 250px;
@@ -61,8 +62,6 @@ img {
   padding-left: 15px;
   margin-bottom: 0px;
   margin-top: 0px;
-  
-  border: 1px solid;
 }
 
 .boxPic {
@@ -72,10 +71,6 @@ img {
   padding: 15px;
   justify-self: center;
   margin-bottom: 0px;
-  
-  border: 1px solid;
-  
-  
 }
 
 
@@ -84,6 +79,24 @@ img {
   flex: 1 1 250px;
   margin: 15px;
   border-bottom: 1px solid;
+}
+
+.boxDate {
+  flex: 1 1 1px;
+  margin: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: 1px solid;
+}
+
+.boxPosition {
+  flex: 1 1 250px;
+  margin: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: 1px solid;
 }
 
 
