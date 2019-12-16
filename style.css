@@ -1,16 +1,21 @@
+body{
+  background-color: #eee;
+}
 h1 { 
   font-family: Calibri;
   font-style: normal;
   font-variant: normal;
   line-height: 0.5;
   color: darkgrey;
+  vertical-align: middle;
   }
 
-  h2{ 
+  h2, h3{ 
   font-family: Calibri;
   font-style: normal;
   font-variant: normal;
-  line-height: 0.5;
+  line-height: 0;
+  vertical-align: middle;
   }
 
 p { 
@@ -22,28 +27,63 @@ p {
   }
 
 
-.tableHead{
-  width: 400px; 
-  text-align: left;
-}
-
 img {
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 .container{
   display: flex;
-  max-width: 800px;
+  align-items: center;
+  max-width: 600px;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: auto;
+  
 }
 
+
 .boxData {
-     flex: 1 1 100px;
-     background: #eee;
-     justify-content: center;
+  flex: 1 1 250px;
+  margin: 15px;
+  padding: 15px;
+  margin-bottom: 0px;
+  
+  border: 1px solid;
+}
+.boxData2 {
+  flex: 1 1 250px;
+  margin: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+  border: 1px solid;
 }
 
 .boxPic {
-     flex: 1 1 100px;
-     background: #eee;
-     justify-content: center;
+  flex: 1 1 200px;
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  justify-self: center;
+  margin-bottom: 0px;
+  
+  border: 1px solid;
+  
+  
 }
+
+
+
+.boxWe {
+  flex: 1 1 250px;
+  margin: 15px;
+  border-bottom: 1px solid;
+}
+
+
