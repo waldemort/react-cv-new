@@ -26,14 +26,22 @@ class Milestones extends Component{
                      <p><b>{milestonesSubitem.companyName}</b> - {milestonesSubitem.companyCity}, {milestonesSubitem.companyCountry}</p>
                      <p><i>{milestonesSubitem.position}</i></p>
                      <p>{milestonesSubitem.aspiredPosition}</p>
-
-                     
-                     
-                     
-
-
-
+                     <p>{milestonesSubitem.workExperience.role}</p>
                      </div>
+                     {
+                       milestonesSubitem.workExperience.map((workExperience, k) => {
+                         return (
+                           <div class="container">
+                           <p>{workExperience.activities}</p>
+                           </div>
+                           )
+                        })
+                      }
+                     
+
+
+
+
                      
                      </div>
                      
