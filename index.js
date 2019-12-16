@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.css';
 import BasicData from './BasicData';
 import Milestones from './Milestones';
-import Icon from './location_icon.png';
 
 class App extends Component {
  
@@ -15,6 +13,11 @@ class App extends Component {
         
 
           <BasicData/>
+          <div class="container">
+          <div class="boxWe">
+          <h3 align="right">Work Experience</h3>
+          </div>
+          </div>
           <Milestones/>
 
       </div>
