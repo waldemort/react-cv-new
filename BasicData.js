@@ -18,14 +18,14 @@ class BasicData extends Component{
         </div>
         
         <div class="boxPic">
-        <img src="https://media.licdn.com/dms/image/C4D03AQHeIK5OJJUI7w/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=PhpzfEZTsEC9de0aSQSIY9-WrPYaYbab3J2mxuSmb2k" alt="MDN"/>
+        <img class="profile" src="https://media.licdn.com/dms/image/C4D03AQHeIK5OJJUI7w/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=PhpzfEZTsEC9de0aSQSIY9-WrPYaYbab3J2mxuSmb2k" alt="MDN"/>
         </div>
         <div class="boxData2">
-        <p>{postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
-        <p>{postDetail.personalData.phoneNumber}</p>
-        <p>{postDetail.personalData.eMail}</p>
-        <p>{postDetail.personalData.birthDate}</p>
-        <p>{postDetail.personalData.nationality}</p>
+        <p> <img class="icon" src="https://github.com/waldemort/react-cv-new/blob/master/pic/icon_location.png?raw=true" alt="MDN"/>{postDetail.personalData.street} {postDetail.personalData.houseNumber},       {postDetail.personalData.postalCode} {postDetail.personalData.city}</p>
+        <p> <img class="icon" src="https://github.com/waldemort/react-cv-new/blob/master/pic/icon_phone.png?raw=true" alt="MDN"/>{postDetail.personalData.phoneNumber}</p>
+        <p> <img class="icon" src="https://github.com/waldemort/react-cv-new/blob/master/pic/icon_address.png?raw=true" alt="MDN"/> {postDetail.personalData.eMail}</p>
+        <p> <img class="icon" src="https://github.com/waldemort/react-cv-new/blob/master/pic/icon_birth.png?raw=true" alt="MDN"/> {postDetail.personalData.birthDate}</p>
+        <p> <img class="icon" src="https://github.com/waldemort/react-cv-new/blob/master/pic/icon_nationality.png?raw=true" alt="MDN"/> {postDetail.personalData.nationality}</p>
         </div>
 
          
