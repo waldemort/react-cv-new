@@ -17,9 +17,22 @@ class Milestones extends Component{
                     
                      <div class="container">
                      
-                     <div class="boxData">
-                     <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate}</p>
-                     <p>{milestonesSubitem.position}</p>
+                     <div class="boxDate">
+                     <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate} </p>
+                     </div>
+
+                     <div class="boxPosition">
+                     
+                     <p><b>{milestonesSubitem.companyName}</b> - {milestonesSubitem.companyCity}, {milestonesSubitem.companyCountry}</p>
+                     <p><i>{milestonesSubitem.position}</i></p>
+                     <p>{milestonesSubitem.aspiredPosition}</p>
+
+                     
+                     
+                     
+
+
+
                      </div>
                      
                      </div>
