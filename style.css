@@ -24,6 +24,12 @@ p {
   font-variant: normal;
   line-height: 0.4;
   }
+li {
+  font-family: Calibri;
+  font-style: normal;
+  font-variant: normal;
+
+}
 
 
 .profile {
@@ -92,6 +98,14 @@ p {
 
 .boxPosition {
   flex: 1 1 250px;
+  margin: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: 1px solid;
+}
+.boxAct {
+  flex: 1 1 500px;
   margin: 15px;
   padding-left: 15px;
   margin-bottom: 0px;
