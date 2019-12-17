@@ -34,7 +34,7 @@ class Milestones extends Component{
                            <div>
                            <p><u>{workExperience.role}</u></p>
                            <ol>
-                           <li>{workExperience.activities[0]}</li>
+                           <li>{workExperience.activities}</li>
                            <li>{workExperience.activities[1]}</li>
                            <li>{workExperience.activities[2]}</li>
                            <li>{workExperience.activities[3]}</li>
