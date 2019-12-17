@@ -36,8 +36,8 @@
                   "industry":"telecommunication",
                   "role":"Messaging Bot Factory Delivery Lead",
                   "activities":[ 
-                    "Establishment of an agile factory for the implementation of an own bot framework for the automation of the Customer Service",
-                    "Leadership of an international SCRUM team for a bot framework development and other automation (API and RPA) for customer facing channels using the latest technologies: AI, NLP, OCR etc."
+                    "one": "Establishment of an agile factory for the implementation of an own bot framework for the automation of the Customer Service",
+                    "two": "Leadership of an international SCRUM team for a bot framework development and other automation (API and RPA) for customer facing channels using the latest technologies: AI, NLP, OCR etc."
                   ]
                },
                {
