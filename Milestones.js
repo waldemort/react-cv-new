@@ -15,13 +15,13 @@ class Milestones extends Component{
                 postDetail.milestones.map((milestonesSubitem, i) => {
                   return (
                     
-                     <div class="container">
+                     <div className="container">
                      
-                     <div class="boxDate">
+                     <div className="boxDate">
                      <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate} </p>
                      </div>
 
-                     <div class="boxPosition">
+                     <div className="boxPosition">
                      
                      <p><b>{milestonesSubitem.companyName}</b> - {milestonesSubitem.companyCity}, {milestonesSubitem.companyCountry}</p>
                      <p><i>{milestonesSubitem.position}</i></p>
