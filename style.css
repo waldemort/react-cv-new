@@ -24,12 +24,7 @@ p {
   font-variant: normal;
   line-height: 0.4;
   }
-li {
-  font-family: Calibri;
-  font-style: normal;
-  font-variant: normal;
 
-}
 
 
 .profile {
@@ -111,3 +106,17 @@ li {
 }
 
 
+ol {
+  font-family: Calibri;
+  font-style: normal;
+  font-variant: normal;
+  padding-left: 20px;
+  list-style-type: circle;
+      
+}
+
+li {
+  font-family: Calibri;
+  font-style: normal;
+  font-variant: normal;
+}
