@@ -34,7 +34,7 @@ class Milestones extends Component{
                            <div>
                            {console.log(workExperience.activities)}
 
-                           <p>{workExperience.activities}</p>
+                           
                                                       
 
                            </div>
