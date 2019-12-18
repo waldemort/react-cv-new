@@ -11,37 +11,29 @@ class Skills extends Component{
     {
       CVdata.map((postDetail, index) => {
         return <div>
+        {console.log(postDetail.qualifications.skillName)}
+         <p>{postDetail.qualifications.skillName}</p>
+         
          {
-                postDetail.milestones.map((milestonesSubitem, i) => {
-                  return (
-                    
-                     <div className="container">
-                     
-                     <div className="boxDate">
-                     <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate} </p>
-                     </div>
-
-                     <div className="boxPosition">
-                     
-                     <p><b>{milestonesSubitem.companyName}</b> - {milestonesSubitem.companyCity}, {milestonesSubitem.companyCountry}</p>
-                     <p><i>{milestonesSubitem.position}</i></p>
-                     <br/>
-                     <p>{milestonesSubitem.workExperience.role}</p>
-                     
-                     
-                      </div>
-                     
+           postDetail.qualifications.map((qualifications, index) => {
+             return <div>
+             {console.log(qualifications.skillCluster)}
+             <p>{qualifications.skillCluster}</p>
+             
+             
+             
+             </div>
 
 
+      })
 
-
-                     
-                     </div>
-                     
-                  )
-                })
-               }
+      
+    }
         
+
+
+
+
 
        
 

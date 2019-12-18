@@ -232,12 +232,26 @@
       ],
       "qualifications":[
         {
-          "skillName": "Social skills",
-          "characteristic": [
-            "Target-group-oriented communication", 
-            "Integration aspirations",
-            "Inspiration employee motivation",
-            "Curiosity and drive"
+          "skillCluster": "Social skills",
+          "skills":[
+            {
+              "skillName": "Target-group-oriented communication",
+              "skillLevel": "100"
+
+            },
+            {
+              "skillName": "Integration aspirations",
+              "skillLevel": "100"
+            },
+            {
+              "skillName": "Inspiration employee motivation",
+              "skillLevel": "100"
+            },
+            {
+              "skillName": "Curiosity and drive",
+              "skillLevel": "100"
+            }
+
           ]
         },
         {
