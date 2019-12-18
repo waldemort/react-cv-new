@@ -32,7 +32,7 @@ class Milestones extends Component{
                        milestonesSubitem.workExperience.map((workExperience, k) => {
                          return (
                            <div>
-                           {console.log(workExperience.activities)}
+                           {console.log(workExperience.activities[1])}
 
                            
                                                       
