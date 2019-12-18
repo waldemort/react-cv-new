@@ -120,3 +120,26 @@ li {
   font-style: normal;
   font-variant: normal;
 }
+
+
+.square{
+  pointer-events: none;
+  position: relative;
+  width: 100px;
+  height: 28px;
+  margin: 1px;
+  background-color: blue;
+  font-size: 14px;
+}
+
+.line{
+  width: 100px;
+}
+
+
+
+
+.shadow {
+  position: absolute;
+  opacity: .2;
+}

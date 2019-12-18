@@ -253,29 +253,6 @@
             }
 
           ]
-        },
-        {
-          "skillName": "IT",
-          "characteristic": [
-            "New technologies",
-            "Conception",
-            "Architecture and implementation of IT transformations",
-            "System integration",
-            "AI and business development"
-          ]
-        },
-        {
-          "skillName": "Methodology ",
-          "characteristic": [
-            "Design Thinking",
-            "Agile Project Management (Scrum, SAFe)" 
-          ]
-        },
-        {
-          "skillName": "Programming languages",
-          "characteristic": [
-            "C, C++, C#, Java, PL/SQL, ABAP, Perl, Swift 3, Python, nodeJS" 
-          ]
         }
         
       ]
