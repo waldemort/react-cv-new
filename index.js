@@ -18,8 +18,13 @@ class App extends Component {
           <div class="boxWe">
           <h3 align="right">Work Experience</h3>
           </div>
-          </div>
+          
           <Milestones/>
+
+          <div class="boxWe">
+          <h3 align="right">Skills</h3>
+          </div>
+          </div>
           <Skills/>
 
       </div>
