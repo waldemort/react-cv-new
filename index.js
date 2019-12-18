@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 import BasicData from './BasicData';
 import Milestones from './Milestones';
+import Skills from './Skills';
 
 class App extends Component {
  
@@ -19,6 +20,7 @@ class App extends Component {
           </div>
           </div>
           <Milestones/>
+          <Skills/>
 
       </div>
 
