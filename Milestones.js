@@ -18,7 +18,7 @@ class Milestones extends Component{
                      <div className="container">
                      
                      <div className="boxDate">
-                     <p>{milestonesSubitem.startDate} - {milestonesSubitem.endDate} </p>
+                     <p className="date">{milestonesSubitem.startDate} - {milestonesSubitem.endDate} </p>
                      </div>
 
                      <div className="boxPosition">
@@ -28,19 +28,19 @@ class Milestones extends Component{
                      <br/>
                      <p>{milestonesSubitem.workExperience.role}</p>
                      
+                     
                      {
                        milestonesSubitem.workExperience.map((workExperience, k) => {
                          return (
                            <div>
+                           <u>{workExperience.role}</u>
+                           
+                           <ol><li>{workExperience.activities}</li>
                            {console.log(workExperience.activities)}
-                           
-                           {
-                              for (let i=0; i<workExperience.activities.length; i++) { 
-                                (<li> {workExperience.activities[i]}</li>) 
-                           }
-                           <ol><li>{workExperience.activities.length</li>
-                           
                            </ol>
+
+                                           
+                           }
 
                            
                                                       
