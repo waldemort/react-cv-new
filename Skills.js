@@ -11,18 +11,17 @@ class Skills extends Component{
     {
       CVdata.map((postDetail, index) => {
         return <div className="container">
-        {console.log(postDetail.qualifications.skillName)}
+       
          <p>{postDetail.qualifications.skillName}</p>
          
          {
            postDetail.qualifications.map((qualifications, index) => {
              return <div className="boxPosition">
-             {console.log(qualifications.skillCluster)}
+           
              <p>{qualifications.skillCluster}</p>
              {
            qualifications.skills.map((skills, index) => {
              return <div className="boxPosition">
-             {console.log(skills.skillName)}
              <p>{skills.skillName}</p>
              <p>{skills.skillLevel}</p>
 
