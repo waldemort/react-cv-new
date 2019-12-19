@@ -35,12 +35,21 @@ class Milestones extends Component{
                            <div>
                            <u>{workExperience.role}</u>
                            
-                           <ol><li>{workExperience.activities}</li>
-                           {console.log(workExperience.activities)}
-                           </ol>
+                           
+
+                           {
+                             workExperience.activities.map((act, a)=>{
+                               
+
+                               <p>{act}</p>
+                               
+
+                               {console.log(act)}
+                             })
+                           }
 
                                            
-                           }
+                           
 
                            
                                                       
