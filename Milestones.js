@@ -33,8 +33,7 @@ class Milestones extends Component{
                          return (
                            <div>
                            {console.log(workExperience.activities[0])}
-                           <ol><li>{workExperience.activities[0]}</li>
-                           <li>{workExperience.activities[1]}</li>
+                           <ol><li>{workExperience.activities}</li>
                            
                            </ol>
 
