@@ -39,9 +39,12 @@ class Milestones extends Component{
 
                            {
                              workExperience.activities.map((act, a)=>{
-                               
+                               return(
 
-                               <p>{act}</p>
+                                 <ol><li>{act}</li></ol>
+                               )
+
+                            
                                
 
                                {console.log(act)}
