@@ -27,16 +27,7 @@ class Skills extends Component{
              <p>{skills.skillLevel}</p>
 
 
-              <div id="specificUnitValue" className="demo active">
-                <h3 className="demo-title">wie cool ich bin</h3>
-                
-                <div className="demo-content specific-unit-values-demo">
-                  <div className="square shadow"></div>
-                  <div className="square el" style="width: 0px;"></div>
-                </div>
-     
               
-              </div>
              
 
 
