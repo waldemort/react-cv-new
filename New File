@@ -9,3 +9,10 @@
              
              )}
              </Anime>
+
+
+
+
+             <div className="App">
+        <VerticalProgress progress={90} />
+      </div>

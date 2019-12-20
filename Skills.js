@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
 import Anime from 'react-anime';
-import VerticalProgress from "./VerticalProgress";
 
 
 
@@ -9,12 +8,8 @@ import VerticalProgress from "./VerticalProgress";
 class Skills extends Component{
   render (){
 
-    let animeProps = {
-      width: '400px', // -> from '28px' to '100%',
-      easing: 'easeInOutQuad',
-      direction: 'alternate',
-      loop: false
-      };
+
+   
     return(
     <div> 
     {
@@ -30,26 +25,11 @@ class Skills extends Component{
              <p>{qualifications.skillCluster}</p>
              {
            qualifications.skills.map((skills, index) => {
-             return (<div>
-
-             
-             <VerticalProgress progress={10} />
-
-
-
-            
-
-
-              
-             
-
-
-
-
-             
-             
-             
-             </div>)
+             return (
+               <div>
+               
+               </div>
+             );
              })
           }
 
@@ -81,8 +61,7 @@ class Skills extends Component{
 
       
     }
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-        <script src="./AnimeBar.js"></script>
+
     </div>
     
     )
