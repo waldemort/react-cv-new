@@ -1,0 +1,11 @@
+<Anime {...animeProps}>
+             {qualifications.skills.map((v,i) => 
+             <div class="demo-content">
+             <div class="square shadow"></div>
+                  
+             <div><div className="demo-content">asd</div></div>
+             </div>
+
+             
+             )}
+             </Anime>

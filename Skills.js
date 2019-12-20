@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
 import Anime from 'react-anime';
+import VerticalProgress from "./VerticalProgress";
 
 
 
@@ -32,15 +33,7 @@ class Skills extends Component{
              return (<div>
 
              
-             <Anime {...animeProps}>
-             {qualifications.skills.map((v,i) => 
-             <div class="demo-content">
-             <div class="square shadow"></div>
-                  
-             <div classname="square el" key={i}>a</div>
-             </div>
-             )}
-             </Anime>
+             <VerticalProgress progress={10} />
 
 
 
