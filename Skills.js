@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
+import Anime from 'react-anime';
 
 
 
 
 class Skills extends Component{
   render (){
+
+    let animeProps = {
+      width: '400px', // -> from '28px' to '100%',
+      easing: 'easeInOutQuad',
+      direction: 'alternate',
+      loop: false
+      };
     return(
     <div> 
     {
@@ -21,9 +29,22 @@ class Skills extends Component{
              <p>{qualifications.skillCluster}</p>
              {
            qualifications.skills.map((skills, index) => {
-             return <div className="boxPosition">
-             <p>{skills.skillName}</p>
-             <p>{skills.skillLevel}</p>
+             return (<div>
+
+             
+             <Anime {...animeProps}>
+             {qualifications.skills.map((v,i) => 
+             <div class="demo-content">
+             <div class="square shadow"></div>
+                  
+             <div classname="square el" key={i}>a</div>
+             </div>
+             )}
+             </Anime>
+
+
+
+            
 
 
               
@@ -35,7 +56,7 @@ class Skills extends Component{
              
              
              
-             </div>
+             </div>)
              })
           }
 

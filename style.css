@@ -149,3 +149,13 @@ li {
   position: absolute;
   opacity: .2;
 }
+
+.demo-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 15px;
+    height: 100%;
+  }
