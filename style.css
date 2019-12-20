@@ -164,15 +164,15 @@ li {
 .progress-bar {
   position: relative;
   height: 20px;
-  width: 350px;
+  width: 300px;
   border-radius: 50px;
   border: 1px solid #333;
 }
 
 .filler {
-  background: #1DA598;
+  background:#eee;
   height: 100%;
   border-radius: inherit;
   transition: width .2s ease-in;
-}
+  }
 

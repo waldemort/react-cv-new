@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CVdata from './cvdata.json';
-import Anime from 'react-anime';
+
 
 
 const ProgressBar = (props) =>{
@@ -15,6 +15,8 @@ const ProgressBar = (props) =>{
 const Filler = (props) => {
   return(
     <div className="filler" style={{width: `${props.percentage}%`}}/>
+
+    
   )
 }
 
