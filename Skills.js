@@ -3,7 +3,20 @@ import CVdata from './cvdata.json';
 import Anime from 'react-anime';
 
 
+const ProgressBar = (props) =>{
 
+  return(
+    <div className="progress-bar">
+    <Filler percentage={props.percentage}/>
+    </div>
+  )
+}
+
+const Filler = (props) => {
+  return(
+    <div className="filler" style={{width: `${props.percentage}%`}}/>
+  )
+}
 
 class Skills extends Component{
   render (){
@@ -17,17 +30,20 @@ class Skills extends Component{
         return <div className="container">
        
          <p>{postDetail.qualifications.skillName}</p>
-         
+         <div className="boxDate">
+                     <p className="date"> </p>
+                     </div>
          {
            postDetail.qualifications.map((qualifications, index) => {
              return <div className="boxPosition">
            
-             <p>{qualifications.skillCluster}</p>
+             <h3>{qualifications.skillCluster}</h3>
              {
            qualifications.skills.map((skills, index) => {
              return (
                <div>
-               
+               <p>{skills.skillName}</p>
+               <ProgressBar percentage={skills.skillLevel}/>
                </div>
              );
              })
